@@ -7,7 +7,7 @@
 let cabecalho = document.querySelector("header")
 
 function mudarHeader(){
-    cabecalho.style.backgroundColor = "purple"
+    cabecalho.style.backgroundColor = "pink"
     cabecalho.style.color = "white"
 }
 mudarHeader()
@@ -17,8 +17,8 @@ mudarHeader()
 let primeiroTitulo = document.querySelector("h1")
 
 function acao(){
-    primeiroTitulo.style.transition = "2s"
-    primeiroTitulo.style.transform = "rotate(360deg)"
+    primeiroTitulo.style.transition = "5s"
+    //primeiroTitulo.style.transform = "rotate(360deg)"
     primeiroTitulo.style.backgroundColor="yellow"
     primeiroTitulo.style.color="red"
 }

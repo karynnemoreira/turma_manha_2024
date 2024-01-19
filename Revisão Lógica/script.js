@@ -239,6 +239,6 @@ console.log(numeros)
 numeros.splice (0, 0, 95) //à partir do índice 0, adicione o valor 95
 console.log(numeros)
 
-numeros.splice(1,1,24) //substitui o índice 1 pelo o valor 24
+numeros.splice(1,1,24) //substitui o índice 1 pelo o valor
 console.log(numeros)
 
